@@ -10,5 +10,4 @@ payload = {
 }
 response = requests.post(REGISTER_URL, json=payload)
 print("Status Code:", response.status_code)
-print("Response:")
 print(response.json())
