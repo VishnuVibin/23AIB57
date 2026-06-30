@@ -13,4 +13,3 @@ def Log(stack, level, package, message):
     except Exception as e:
         print("Logging Error:", e)
         return None
-
